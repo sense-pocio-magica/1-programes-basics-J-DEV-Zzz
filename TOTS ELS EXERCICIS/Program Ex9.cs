@@ -8,10 +8,10 @@ class Program
     static void Main(string[] args)
     {
         Console.Write("Entra un valor en metres: ");
-        double metres = double.Parse(Console.ReadLine());
+        double Metres = double.Parse(Console.ReadLine());
 
-        double peus = metres * 3.28084;
+        double Peus = Metres * 3.28084;
 
-        Console.WriteLine(metres + " metres són " + peus + " peus.");
+        Console.WriteLine($"{Metres} metres són {Peus} peus.");
     }
 }

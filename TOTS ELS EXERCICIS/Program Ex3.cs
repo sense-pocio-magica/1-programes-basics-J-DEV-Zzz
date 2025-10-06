@@ -9,13 +9,13 @@ class Program
         var nom ="Pomes"
         double preu = 2.5;
         int quantitat = 30;
-        bool enEstoc = true;
+        bool EnEstoc = true;
 
         Console.WriteLine("Informació del producte:");
         Console.WriteLine($"Nom: {nom}");
         Console.WriteLine($"Preu: {preu} €");
         Console.WriteLine($"Quantitat disponible: {quantitat}");
-        Console.WriteLine($"En estoc: {enEstoc}");
+        Console.WriteLine($"En estoc: {EnEstoc}");
     }
 }
 

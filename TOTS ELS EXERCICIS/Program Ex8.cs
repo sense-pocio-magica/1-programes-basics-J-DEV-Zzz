@@ -7,11 +7,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        int minutstotals = 240;
+        int Minutstotals = 240;
 
-        int hores = minutstotals / 60;
-        int minutsrestants = minutstotals % 60;
+        int Hores = minutstotals / 60;
+        int Minutsrestants = Minutstotals % 60;
 
-        Console.WriteLine("Hores: " + hores + ", Minuts: " + minutsrestants);
+        Console.WriteLine("Hores: " + Hores + ", Minuts: " + Minutsrestants);
     }
 }

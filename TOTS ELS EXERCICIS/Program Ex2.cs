@@ -8,7 +8,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var carrer = "C/Catalunya";
+        var carrer = "C/Cataluña";
         int numero = 25 ;
         int codiPostal = 17469 ;
         var poblacio = "Vilamalla" ;

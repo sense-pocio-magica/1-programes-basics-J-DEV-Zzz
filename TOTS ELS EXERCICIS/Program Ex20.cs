@@ -12,6 +12,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Entra el número a invertir: ");
+        var numero = Console.ReadLine(); 
+        
+        var digits = numero.ToCharArray(); 
+        Array.Reverse(digits);
+        var numeroInvertit = new string(digits); 
+
+        Console.WriteLine($"El número invertit és: {numeroInvertit}");
     }
 }

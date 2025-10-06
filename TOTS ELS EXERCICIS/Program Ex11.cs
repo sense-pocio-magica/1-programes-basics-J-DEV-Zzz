@@ -5,6 +5,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var nomUsu = "jcabrera";
+        var domini = "@cendrassos.net";
+
+        var correu = nomUsu + domini;
+        Console.WriteLine($"Aquest és el teu correu: {correu}");
     }
 }

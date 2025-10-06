@@ -11,11 +11,11 @@ class Program
     static void Main(string[] args)
     {
         Console.Write("Introdueix el valor de l'article en euros: ");
-        var euros = double.Parse(Console.ReadLine());
+        var Euros = double.Parse(Console.ReadLine());
 
-        var pessetes = euros * 166.386;
+        var pessetes = Euros * 166.386;
         var pessetesSenceres = (int)pessetes;  
 
-        Console.WriteLine(euros + " euros són " + pessetesSenceres + " pessetes.");
+        Console.WriteLine(Euros + " euros són " + pessetesSenceres + " pessetes.");
     }
 }

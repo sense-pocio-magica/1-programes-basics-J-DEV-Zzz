@@ -6,6 +6,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var nom = "Joel";
+        var cognom = "Cabrera";
+        
+        var nomComplet = nom + " " + cognom;
+        
+        Console.WriteLine($"Nom complet: " {nomComplet});
     }
 }
+}
+

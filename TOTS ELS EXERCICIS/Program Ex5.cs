@@ -9,7 +9,7 @@ class Program
     static void Main(string[] args)
     {
         Console.Write("Introdueix el teu nom: ");
-        var nom = Console.ReadLine();
+        var Nom = Console.ReadLine();
 
         Console.Write("Introdueix el teu any de naixement: ");
         var anyNaixement = int.Parse(Console.ReadLine());
@@ -17,6 +17,6 @@ class Program
         var anyActual = 2025;
         var edat = anyActual - anyNaixement;
 
-        Console.WriteLine($"Hola {nom}! Ja tens {edat} anys?");
+        Console.WriteLine($"Hola {Nom}! Ja tens {edat} anys?");
     }
 }

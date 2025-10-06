@@ -17,6 +17,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.Write("Hora actual: ");
+        int horaActual = int.Parse(Console.ReadLine());
+        
+        Console.Write("Hores a incrementar: ");
+        int incremento = int.Parse(Console.ReadLine());
+        
+        int horaFutura = (horaActual + incremento) % 24;
+        
+        Console.WriteLine($"D'aquí a {incremento} hores seran les {horaFutura}");
     }
-}

@@ -8,16 +8,16 @@ class Program
     static void Main(string[] args)
     {
         Console.Write("Entra el primer numero:");
-        int num1 = int.Parse(Console.ReadLine());
+        int Num1 = int.Parse(Console.ReadLine());
 
         Console.Write("Entra el segon numero:");
-        int num2 = int.Parse(Console.ReadLine());
+        int Num2 = int.Parse(Console.ReadLine());
 
         Console.Write("Entra el tercer numero:");
-        int num3 = int.Parse(Console.ReadLine());
+        int Num3 = int.Parse(Console.ReadLine());
 
-        int mitjana = (num1 + num2 + num3) / 3;
+        int Mitjana = (Num1 + Num2 + Num3) / 3;
 
-        Console.WriteLine("La mitjana és: " + mitjana);
+        Console.WriteLine("La mitjana és: " + Mitjana);
     }
 }

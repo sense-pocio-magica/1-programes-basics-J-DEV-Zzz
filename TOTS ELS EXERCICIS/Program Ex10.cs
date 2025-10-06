@@ -8,6 +8,11 @@ class Program
 {
     static void Main(string[] args)
     {
+        var nom = "Joel";
+        int any_naixement = 2005;
         
+        var contrasenia = nom + any_naixement;
+        
+        Console.WriteLine($"Aquesta es la contrasenya: {contrasenya}");
     }
 }

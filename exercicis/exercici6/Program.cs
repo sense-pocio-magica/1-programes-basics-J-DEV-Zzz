@@ -7,6 +7,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var costat = 10;
+        var perimetre = costat * 4;
+
+        Console.WriteLine("El perímetre del quadrat és: " + perimetre);
     }
 }

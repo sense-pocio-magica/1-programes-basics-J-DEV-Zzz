@@ -8,6 +8,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var carrer = "C/Catalunya";
+        int numero = 25 ;
+        int codiPostal = 17469 ;
+        var poblacio = "Vilamalla" ;
+
+        Console.WriteLine($"{carrer} {numero}, {codiPostal} {poblacio}");
     }
 }

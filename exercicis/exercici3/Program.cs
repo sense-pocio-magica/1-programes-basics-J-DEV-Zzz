@@ -6,6 +6,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var nom ="Pomes"
+        double preu = 2.5;
+        int quantitat = 30;
+        bool enEstoc = true;
+
+        Console.WriteLine("Informació del producte:");
+        Console.WriteLine($"Nom: {nom}");
+        Console.WriteLine($"Preu: {preu} €");
+        Console.WriteLine($"Quantitat disponible: {quantitat}");
+        Console.WriteLine($"En estoc: {enEstoc}");
     }
 }
+
